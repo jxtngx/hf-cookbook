@@ -1,9 +1,12 @@
 .vscode
 .idea/
 .venv/
+*.env
 
 
 **/.ipynb_checkpoints
 **/.DS_Store
 
-data/
+# remove prior to merge
+documents/
+local-ingest-output/
